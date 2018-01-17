@@ -1,0 +1,243 @@
+
+
+#grid-floats .grid-item {
+  width: 100%;
+  float: left;
+ }
+
+ img {
+   width:50%;
+ }
+
+@media (min-width:420px) and (max-width:620px)
+{
+  #grid-floats .grid-item {
+    float: left;
+    background-color: yellow;
+    width: 40%;
+    margin-left: 0;
+    border: solid 5px red;
+    padding: 10px;
+   }
+   #grid-floats .grid-item:nth-child(1) {
+     width: 94%;
+     float:left;
+
+   }
+   #grid-floats .grid-item:nth-child(even) {
+     float: left;
+     width: 44%;
+     padding-bottom: 7%;
+   }
+   #grid-floats .grid-item:nth-child(2n+3) {
+     float: right;
+     width: 44%;
+     padding-top: 5%;
+   }
+ }
+
+@media (min-width:630px) and (max-width:900px)
+{
+  #grid-floats .grid-item {
+    float: left;
+    background-color: blue;
+    width: 45%;
+    margin-left: 0;
+    border: solid 5px black;
+    padding: 10px;
+   }
+  #grid-floats .grid-item:nth-child(1) {
+    float: left;
+    width: 45%;
+   }
+  #grid-floats .grid-item:nth-child(2){
+    float: right;
+    width: 45%;
+   }
+  #grid-floats .grid-item:nth-child(3){
+    float: left;
+    width: 28%;
+   }
+  #grid-floats .grid-item:nth-child(4){
+    float: left;
+    width:27%;
+   }
+  #grid-floats .grid-item:nth-child(5){
+    float: left;
+    width: 30%
+   }
+   #grid-floats .grid-item:nth-child(6){
+     clear: left;
+     width: 28%;
+    }
+    #grid-floats .grid-item:nth-child(7){
+      float: left;
+      width:27%;
+    }
+    #grid-floats .grid-item:nth-child(8){
+      float: left;
+      width: 30%
+    }
+     #grid-floats .grid-item:nth-child(9){
+       clear: left;
+       width: 28%;
+    }
+    #grid-floats .grid-item:nth-child(10){
+      float: left;
+      width:27%;
+     }
+    #grid-floats .grid-item:nth-child(11){
+      float: left;
+      width: 30%
+     }
+     #grid-floats .grid-item:nth-child(12){
+       clear: left;
+       width: 28%;
+    }
+    #grid-floats .grid-item:nth-child(13){
+      float: left;
+      width: 28%;
+   }
+   #grid-floats .grid-item:nth-child(14){
+     clear: right;
+     width: 28%;
+  }
+
+}
+ @media (min-width:901px) and (max-width:1300px)
+ {
+   #grid-floats .grid-item {
+     float: left;
+     background-color: purple;
+     width: 95%;
+     margin-left: 0;
+     border: solid 5px yellow;
+     padding: 10px;
+    }
+    #grid-floats .grid-item:nth-child(1) {
+      float: left;
+      width: 52%;
+     }
+    #grid-floats .grid-item:nth-child(2){
+      float: right;
+      width: 20%;
+     }
+    #grid-floats .grid-item:nth-child(3){
+      float: left;
+      width: 20%;
+     }
+    #grid-floats .grid-item:nth-child(4) {
+      clear: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(5){
+      float: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(6){
+      float: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(7){
+      float: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(8){
+      clear: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(9){
+      float: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(10){
+      float: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(11){
+      float: left;
+      width: 22%;
+      }
+    #grid-floats .grid-item:nth-child(12){
+      clear: left;
+      width: 30%;
+      }
+    #grid-floats .grid-item:nth-child(13){
+      float: left;
+      width: 30%;
+      }
+    #grid-floats .grid-item:nth-child(14){
+      float: right;
+      width: 30%;
+      }
+  }
+
+  @media (min-width:420px) and (max-width:620px) {
+    #grid-flex  {
+      display: flex;
+      background-color: pink;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-top: 10px;
+   }
+    #grid-flex .grid-item:nth-child(1) {
+     width: 95%;
+     border: solid 2px red;
+   }
+    #grid-flex .grid-item:nth-child(n+2) {
+     width: 42%;
+     border: solid 2px red;
+   }
+ }
+
+ @media (min-width:630px) and (max-width:900px) {
+    #grid-flex  {
+     display: flex;
+     background-color: green;
+     flex-direction: row;
+     flex-wrap: wrap;
+    }
+    #grid-flex .grid-item:nth-child(1) {
+     width: 49%;
+     border: solid 2px red;
+  }
+    #grid-flex .grid-item:nth-child(2) {
+     width: 49%;
+     border: solid 2px red;
+  }
+    #grid-flex .grid-item:nth-child(n+3) {
+     background-color: green;
+     width:30%;
+     border: solid 2px red;
+  }
+}
+@media (min-width:901px) and (max-width:1300px) {
+    #grid-flex  {
+     display: flex;
+     background-color: gray;
+     flex-direction: row;
+     flex-wrap: wrap;
+     padding-top: 10px;
+     border: solid 2px black;
+   }
+    #grid-flex .grid-item:nth-child(1) {
+     background-color: gray;
+     width:46%;
+     border: solid 2px red;
+   }
+    #grid-flex .grid-item:nth-child(2) {
+     background-color: gray;
+     width:25%;
+     border: solid 2px red;
+   }
+    #grid-flex .grid-item:nth-child(3) {
+     background-color: gray;
+     width:25%;
+     border: solid 2px red;
+   }
+    #grid-flex .grid-item:nth-child(n+4) {
+     background-color: gray;
+     width:24%;
+     border: solid 2px red;
+   }
+}
