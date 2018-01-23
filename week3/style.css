@@ -1,0 +1,230 @@
+
+body {
+  background-color: #F8F8FF;
+/* Header Start */
+}
+.header {
+  float: right;
+}
+.header li {
+  display: inline-block;
+  padding-left: 20px;
+}
+.want .data {
+  padding-top: 50px;
+  padding-left: 7%;
+  font-family: sans-serif;
+  font-size: 35px;
+  color: gray;
+  font-weight: lighter;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  font-weight: lighter;
+}
+ .top {
+  padding-left: 3%;
+  color: gray;
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-top: 10%;
+}
+ .many {
+  float: right;
+  color: blue;
+  font-size: 16PX;
+  margin-top: 35px;
+}
+ .sub {
+  font-weight: bold;
+  padding: 7px 10px 7px 10px;
+  margin-top: 40px;
+  background-color: blue;
+  color: white;
+  float: left;
+  margin-left: 7%;
+  font-size: 15px;
+}
+.rate {
+  background-image: url("backgroundimage.jpg");
+  width: 100%;
+  float: left;
+}
+/* Header End */
+/* Middel Start */
+.trends {
+  padding-left: 5%;
+  color: gray;
+  font-weight: lighter;
+  font-size: 35px;
+  padding-top: 15%;
+}
+.allfoto {
+ flex-direction: row;
+ flex-wrap: wrap;
+ list-style: none;
+}
+#graph img {
+ width: 50%;
+ float: left;
+ padding-right: 2%;
+}
+#graph2 img {
+ width: 23%;
+ float: left;
+ height: 375px;
+}
+#graph3 img {
+ width: 23%;
+ float: right;
+ height: 375px;
+}
+#graph4 img {
+ width: 24%;
+ float: left;
+ height: 375px;
+ padding-right: 2%;
+}
+#graph5 img {
+ width: 24%;
+ float: left;
+ height: 375px;
+}
+#graph6 img {
+ width: 48%;
+ float: right;
+ height: 375px;
+}
+#about div:nth-of-type(1) {
+ width: 27%;
+ float: left;
+ padding-left: 5%;
+ color: blue;
+}
+#about div:nth-of-type(2) {
+ width: 27%;
+ float: left;
+ padding-left: 5%;
+ color: blue;
+}
+#about div:nth-of-type(3) {
+ width: 26%;
+ float: right;
+ padding-right: 5%;
+ color: blue;
+}
+.take {
+ color: gray;
+ font-size: 40px;
+ font-weight: lighter;
+ padding-left: 5%;
+}
+#about h3 {
+  color: gray;
+}
+.color {
+  color: gray;
+}
+#about p {
+  font-size: 20px;
+}
+.tools {
+ color: gray;
+ font-size: 40px;
+ font-weight: lighter;
+ padding-left: 5%;
+ padding-top: 15%;
+}
+.fotos {
+ flex-direction: row;
+ flex-wrap: wrap;
+ list-style: none;
+}
+#graph-take1 img {
+ float: left;
+ width: 23%;
+ padding-right: 2.5%;
+ height: 350px;
+}
+#graph-take2 img {
+ float: left;
+ width: 23%;
+ height: 350px;
+ padding-right: 2.5%;
+}
+#graph-take3 img {
+float: left;
+ width: 23%;
+ height: 350px;
+}
+#graph-take4 img {
+ float: right;
+ width: 23%;
+ height: 350px;
+}
+.see {
+ background-color: blue;
+ color: white;
+ font-size: 20px;
+ padding: 10px 10px 10px 10px;
+ font-weight: bold;
+ margin-top: 5%;
+ float: none;
+ margin-left: 30%;
+ margin-right: 55%;
+}
+/* Middel End */
+/* Start Side Bar */
+#inside {
+ background: yellow;
+ width: 100%;
+ margin-bottom: 10%;
+}
+.left {
+ float: left;
+ font-size: 20px;
+ font-weight: lighter;
+ padding-right: 5%;
+
+}
+.right {
+ float: right;
+ font-size: 12px;
+ margin-left: 25%;
+}
+.subr {
+ margin-right: 70%;
+ color: blue;
+}
+.eml {
+ color: blue;
+}
+.comp {
+ color: blue;
+}
+.detail {
+ color: blue;
+}
+.get {
+ color: blue;
+}
+/*End Side Bar */
+/* start Footer */
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4169E1;
+  color: blue;
+}
+.footer .row {
+  float: left;
+  width: 12.5%;
+  display: inline;
+  color: blue;
+}
+/* End Footer */
